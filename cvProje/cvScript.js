@@ -41,7 +41,7 @@ function generateCV() {
             console.log("Başarılar:", document.getElementById("achievementsOutput").textContent);
 
             cvDiv.style.display = "block";
-            cvDiv.scrollIntoView({ behavior: "auto", block: "start" }); // render'e yardım eder
+            cvDiv.scrollIntoView({ behavior: "auto", block: "start" }); 
 
         }, 500);
     });
