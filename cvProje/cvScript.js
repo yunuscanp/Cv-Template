@@ -1,7 +1,7 @@
 function generateCV() {
     
     document.getElementById("nameOutput").textContent = document.getElementById("nameInput").value || "Ad Soyad";
-    document.getElementById("aboutOutput").textContent = document.getElementById("description").value || "Hakkınızda kısa bir açıklama";
+    document.getElementById("aboutOutput").textContent = document.getElementById("description").value || "Hakkımda";
     document.getElementById("emailOutput").textContent = document.getElementById("email").value || "-";
     document.getElementById("phoneOutput").textContent = document.getElementById("phone").value || "-";
     document.getElementById("locationOutput").textContent = document.getElementById("location").value || "-";
