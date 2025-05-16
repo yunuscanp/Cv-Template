@@ -1,5 +1,5 @@
 function generateCV() {
-    // Verileri aktar
+    
     document.getElementById("nameOutput").textContent = document.getElementById("nameInput").value || "Ad Soyad";
     document.getElementById("aboutOutput").textContent = document.getElementById("description").value || "Hakkınızda kısa bir açıklama";
     document.getElementById("emailOutput").textContent = document.getElementById("email").value || "-";
@@ -15,7 +15,7 @@ function generateCV() {
     const cvDiv = document.getElementById("cvTemplate");
     cvDiv.style.display = "block";
 
-    // DOM render edilmesini beklemek için iki kat bekletme
+    
     requestAnimationFrame(() => {
         setTimeout(() => {
             html2pdf()
@@ -35,7 +35,7 @@ function generateCV() {
                 });
 
 
-            // Konsola kontrol için log
+           
             console.log("İş Deneyimi:", document.getElementById("worksOutput").textContent);
             console.log("Eğitim:", document.getElementById("educationsOutput").textContent);
             console.log("Başarılar:", document.getElementById("achievementsOutput").textContent);
@@ -43,6 +43,6 @@ function generateCV() {
             cvDiv.style.display = "block";
             cvDiv.scrollIntoView({ behavior: "auto", block: "start" }); // render'e yardım eder
 
-        }, 500); // DOM’un çizilmesini garanti eder
+        }, 500);
     });
 }
