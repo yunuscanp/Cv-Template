@@ -38,20 +38,6 @@ html2pdf.js – Converting CV to PDF
 ├── 📄 cvTemplate.html   # CV template (displayed at the bottom of the page)
 ├── 📄 style.css         # Styling
 
-⚙️ How to Run
-
-Clone the repository:
-
-git clone https://github.com/your-username/cv-generator.git
-
-
-Open cvForm.html in your browser.
-
-Fill out the form and click "Save CV as PDF".
-
-Your CV will be automatically downloaded as a PDF.
-
-
 📜 License
 
 This project is released under the MIT License.
