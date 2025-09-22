@@ -51,11 +51,6 @@ Fill out the form and click "Save CV as PDF".
 
 Your CV will be automatically downloaded as a PDF.
 
-🎥 Demo
-
-(Add a screenshot or GIF here)
-
-![Demo Screenshot](demo.png)
 
 📜 License
 
